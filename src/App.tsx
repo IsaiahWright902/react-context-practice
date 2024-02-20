@@ -1,3 +1,9 @@
+import Parent from "./components/Parent";
+
 export default function App() {
-  return <>hi</>;
+  return (
+    <div>
+      <Parent />
+    </div>
+  );
 }
