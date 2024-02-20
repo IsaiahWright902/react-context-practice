@@ -5,13 +5,13 @@ export default function ChildP2() {
   const context = useAppContext();
 
   return (
-    <div>
-      ChildP2
-      <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+    <div style={{ paddingTop: "25px" }}>
+      Parent 2 Child 2
+      <div style={{ display: "flex", flexDirection: "row", gap: "5px" }}>
         {context?.items.length ? (
           context.items.map((item, idx) => <Item key={idx} item={item} />)
         ) : (
-          <p>No Items Yet</p>
+          <p>No Items Yet...</p>
         )}
       </div>
       <div>
@@ -27,8 +27,9 @@ function Item({ item }: { item: ItemType }) {
       style={{
         display: "flex",
         flexDirection: "column",
+        width: "200px",
 
-        border: "2px solid black",
+        border: "1px dashed black",
       }}
     >
       <div>{item.name}</div>

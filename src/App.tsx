@@ -11,8 +11,12 @@ export default function App() {
         gap: "25px",
       }}
     >
-      <Parent />
-      <Parent2 />
+      <div>
+        <Parent />
+      </div>
+      <div>
+        <Parent2 />
+      </div>
     </div>
   );
 }

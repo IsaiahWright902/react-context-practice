@@ -2,8 +2,8 @@ import ChildP4 from "./ChildP4";
 
 export default function ChildP3() {
   return (
-    <div>
-      ChildP3
+    <div style={{ paddingTop: "25px" }}>
+      Parent 2 Child 3
       <div>
         <ChildP4 />
       </div>

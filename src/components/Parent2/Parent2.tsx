@@ -4,7 +4,7 @@ import ChildP from "./ChildP";
 export default function Parent2() {
   return (
     <div>
-      Parent2
+      <h1> Parent2</h1>
       <div>
         <AppProvider>
           <ChildP />

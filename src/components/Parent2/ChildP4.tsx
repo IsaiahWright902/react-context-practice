@@ -25,8 +25,8 @@ export default function ChildP4() {
   };
 
   return (
-    <div style={{ paddingTop: "10px" }}>
-      ChildP4
+    <div style={{ paddingTop: "25px" }}>
+      Parent 2 Chlild 4
       <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
         <input
           value={tempName}
